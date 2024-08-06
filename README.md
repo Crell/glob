@@ -39,7 +39,7 @@ Installation
 Use [Composer] to install the package:
 
 ```
-$ composer require webmozart/glob
+composer require webmozart/glob
 ```
 
 Usage
