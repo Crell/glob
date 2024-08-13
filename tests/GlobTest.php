@@ -790,6 +790,7 @@ class GlobTest extends \PHPUnit\Framework\TestCase
             array('/foo/baz\\*/bar', '/foo/baz*'),
             array('/foo/baz\\\\*/bar', '/foo'),
             array('/foo/baz\\\\\\*/bar', '/foo/baz\\*'),
+            array('', ''),
         );
     }
 
